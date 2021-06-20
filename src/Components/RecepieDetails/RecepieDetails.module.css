@@ -1,0 +1,40 @@
+.RecepieDetails{
+    padding: 10px;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Instructions {
+    margin-top: 10px;
+}
+
+.Instructions h3 {
+    color:orangered;
+}
+.RecepieDetails img {
+    border-radius: 5px;
+    max-height: 400px;
+    max-width: 500px;
+    border: 7px solid orangered;
+    box-shadow: 0 5px 7px black;
+}
+.RecepieDetails h1 {
+    text-align: center;
+    color:orangered;
+}
+.Ingredients {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+    list-style: none;
+}
+.Ingredients li {
+    display: inline;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 3px;
+    text-align: center;
+
+}
